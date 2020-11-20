@@ -1,0 +1,9 @@
+[webservers]
+node2    ansible_host=192.168.1.153
+node3    ansible_host=192.168.1.181
+
+[loadbalancers]
+loadbalancer ansible_host=192.168.1.160 # node1
+
+[local]
+control ansible_connection=local
